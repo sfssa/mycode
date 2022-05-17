@@ -1,0 +1,115 @@
+package 数据结构课设.项目1;
+
+public class dataConstruct {
+    String name;//学校的名字
+    int id;//学校的编号
+    int count;
+    int[] arr=new int[5];//参加的项目（一共五个项目）
+    int[] p1;
+    int[] p2;
+    int[] p3;
+    int[] p4;
+    int[] p5;
+    int p11=0;
+    int p22=0;
+    int p33=0;
+    int p44=0;
+    int p55=0;
+
+
+    public dataConstruct(String name, int id, int count, int p11, int p22, int p33, int p44, int p55) {
+        this.name = name;
+        this.id = id;
+        this.count = count;
+        this.p11 = p11;
+        this.p22 = p22;
+        this.p33 = p33;
+        this.p44 = p44;
+        this.p55 = p55;
+        p1=new int[5];
+        p2=new int[5];
+        p3=new int[5];
+        p4=new int[5];
+        p5=new int[5];
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int[] getArr() {
+        return arr;
+    }
+
+    public void setArr(int[] arr) {
+        this.arr = arr;
+    }
+
+    public int[] getP1() {
+        return p1;
+    }
+
+    public void setP1(int[] p1) {
+        this.p1 = p1;
+    }
+
+    public int[] getP2() {
+        return p2;
+    }
+
+    public void setP2(int[] p2) {
+        this.p2 = p2;
+    }
+
+    public int[] getP3() {
+        return p3;
+    }
+
+    public void setP3(int[] p3) {
+        this.p3 = p3;
+    }
+
+    public int[] getP4() {
+        return p4;
+    }
+
+    public void setP4(int[] p4) {
+        this.p4 = p4;
+    }
+
+    public int[] getP5() {
+        return p5;
+    }
+
+    public void setP5(int[] p5) {
+        this.p5 = p5;
+    }
+
+    public dataConstruct() {
+        p1=new int[5];
+        p2=new int[5];
+        p3=new int[5];
+        p4=new int[5];
+        p5=new int[5];
+    }
+}
